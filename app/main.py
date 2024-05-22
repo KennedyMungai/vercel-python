@@ -1,10 +1,13 @@
 """The main file for the app"""
 from fastapi import FastAPI
+from mangum import Mangum
 
 app = FastAPI(
     title='Vercel FastAPI',
     description="A simple application to be deployed to vercel"
 )
+
+handler = Mangum(app)
 
 
 @app.get('/', tags=['Root'])
