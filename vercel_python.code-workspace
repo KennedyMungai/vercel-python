@@ -5,6 +5,6 @@
 		}
 	],
 	"settings": {
-		"cSpell.words": ["fastapi", "Vercel"]
+		"cSpell.words": ["fastapi", "mangum", "Vercel"]
 	}
 }
