@@ -9,4 +9,9 @@ app = FastAPI(
 
 @app.get('/')
 async def root():
+    """The root endpoint of the application
+
+    Returns:
+        dict: A dictionary containing a simple message
+    """
     return {'message': 'Hello World'}
